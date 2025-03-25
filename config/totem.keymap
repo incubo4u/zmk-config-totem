@@ -91,10 +91,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                      &trans            &trans     &kp UP    &trans             &kp LBRC    &kp RBRC  &trans          &trans         &trans        &trans
-                      &kp LG(LEFT_ALT)  &kp LEFT   &kp DOWN  &kp RIGHT          &kp LBKT    &kp RBKT  &kp MINUS       &kp PLUS       &kp ASTERISK  &kp SLASH
-&kp C_AL_SCREENSAVER  &trans            &kp GRAVE  &kp SQT   &kp DOUBLE_QUOTES  &kp LPAR    &kp RPAR  &kp UNDERSCORE  &kp SEMICOLON  &kp TILDE     &kp BACKSLASH  &trans
-                                                   &trans    &trans             &trans      &trans    &trans          &trans
+                      &trans            &trans     &kp UP        &trans             &kp LBRC            &kp RBRC  &trans          &trans         &trans        &trans
+                      &kp LG(LEFT_ALT)  &kp LEFT   &kp DOWN      &kp RIGHT          &kp LBKT            &kp RBKT  &kp MINUS       &kp PLUS       &kp ASTERISK  &kp SLASH
+&kp C_AL_SCREENSAVER  &trans            &kp GRAVE  &kp SQT       &kp DOUBLE_QUOTES  &kp LPAR            &kp RPAR  &kp UNDERSCORE  &kp SEMICOLON  &kp TILDE     &kp BACKSLASH  &trans
+                                                   &kp LEFT_ALT  &kp LCTRL          &kp LEFT_COMMAND    &trans    &trans          &trans
             >;
         };
 
